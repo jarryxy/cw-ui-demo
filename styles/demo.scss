@@ -1,0 +1,89 @@
+.u-block{
+	padding: 14px;
+	&__section{
+		margin-bottom:10px;
+	}
+	&__title {
+		margin-top:10px;
+		font-size: 15px;
+		color: #606266;
+		margin-bottom:10px;
+	}
+	&__flex{
+		/* #ifndef APP-NVUE */
+		display: flex;
+		/* #endif */
+	}
+}
+
+// 使用了cell组件的icon图片样式
+.u-cell-icon {
+	width: 36rpx;
+	height: 36rpx;
+	margin-right: 8rpx;
+}
+
+.u-page {
+	padding: 15px 15px 40px 15px;
+	overflow-y: hidden;
+}
+
+.u-demo-block {
+	flex: 1;
+	margin-bottom: 23px;
+	
+	&__content {
+		@include flex(column);
+	}
+	
+	&__title {
+		font-size: 14px;
+		color: rgb(143, 156, 162);
+		margin-bottom: 8px;
+		@include flex;
+	}
+}
+
+.u-page__grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.u-page__grid__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    padding: 0 5px;
+}
+
+.u-border-left {
+    border-left-width: 0.5px!important;
+    border-color: #dadbde!important;
+    border-left-style: solid;
+}
+
+.u-border-top {
+    border-top-width: 0.5px!important;
+    border-color: #dadbde!important;
+    border-top-style: solid;
+}
+
+.u-border-right{
+    border-right-width: 0.5px!important;
+    border-color: #dadbde!important;
+    border-right-style: solid;
+}
+
+.u-border-bottom {
+    border-bottom-width: 0.5px!important;
+    border-color: #dadbde!important;
+    border-bottom-style: solid;
+}
+
+.mb-12{
+	margin-bottom: 12px;
+}

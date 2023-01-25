@@ -1,0 +1,306 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "CW UI"
+			}
+		}
+	    ,{
+            "path" : "pages/button/button",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "按钮",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/icon/icon",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图标",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/image/image",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/layout/layout",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "布局",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cell/cell",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "单元格",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tag/tag",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "标签",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/loading/loading",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "加载动画",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/field/field",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "表单项",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/radio/radio",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "单选框",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/checkbox/checkbox",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "复选框",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rate/rate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评分",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/switch/switch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "开关选择器",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/uploader/uploader",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "上传",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/list/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/progress/progress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "进度条",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/rich-text/rich-text",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "富文本",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/skeleton/skeleton",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "骨架屏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/sticky/sticky",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "吸顶",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/transition/transition",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "动画",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabs/tabs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选项卡",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/steps/steps",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "步骤条",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/empty/empty",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "空白显示",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/copyright/copyright",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "版权",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/navbar/navbar",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "导航栏",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/panel/panel",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "面板",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/dialog/dialog",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "对话框",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/toast/toast",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息提示",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/notify/notify",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息提示",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/noticeBar/noticeBar",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "滚动通知",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/divider/divider",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分割线",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/employee/employee",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "人员显示",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/actionSheet/actionSheet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "动作面板",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
